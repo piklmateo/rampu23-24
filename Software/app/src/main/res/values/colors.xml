@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#970000</color>
+
+    <color name="themeColorPrimary">#344955</color>
+    <color name="color_secondary_orange">#F9AA33</color>
+    <color name="color_text_800">#232F34</color>
+    <color name="color_text_700">#344955</color>
+
+    <color name="btnSignForEvent">#A7FFA7</color>
+    <color name="btnSignOutFromEvent">#FF8B8B</color>
+
+
+</resources>

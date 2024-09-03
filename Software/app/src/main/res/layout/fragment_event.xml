@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.EventFragment">
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnShowReset"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:textColor="@color/white"
+                android:text="@string/reset_button_text"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnShowConcert"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:textColor="@color/white"
+                android:text="@string/concert_button_text"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnShowSport"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:textColor="@color/white"
+                android:text="@string/sport_button_text"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnShowShow"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:text="@string/show_button_text"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnShowPolitics"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:text="@string/politics_button_text"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnShowBusiness"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="50sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/worksans_bold"
+                android:backgroundTint="@color/color_secondary_orange"
+                android:text="@string/business_button_text"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_event_show"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_create_new_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:contentDescription="@string/create_a_new_event"
+        android:src="@drawable/baseline_add_24"
+        app:backgroundTint="@color/color_secondary_orange"
+        app:layout_anchorGravity="bottom|end"
+        app:tint="@android:color/white"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

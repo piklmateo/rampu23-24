@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/et_new_event_name"
+        android:text="@string/event_name" />
+
+    <EditText
+        android:id="@+id/et_new_event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/et_new_event_location"
+        android:text="@string/new_event_location" />
+
+    <EditText
+        android:id="@+id/et_new_event_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/et_new_event_date"
+        android:text="@string/event_date" />
+
+    <EditText
+        android:id="@+id/et_new_event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/et_new_event_time"
+        android:text="@string/new_event_time" />
+
+    <EditText
+        android:id="@+id/et_new_event_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="time" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/et_new_event_description"
+        android:text="@string/new_event_description" />
+
+    <EditText
+        android:id="@+id/et_new_event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@+id/spn_new_event_type"
+        android:text="@string/new_event_type" />
+
+    <Spinner
+        android:id="@+id/spn_new_event_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

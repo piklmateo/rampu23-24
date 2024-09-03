@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define a custom button style -->
+    <style name="CustomButtonStyle">
+        <!-- Button text color -->
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- Button background color -->
+        <item name="android:background">#007ACC</item>
+        <!-- Button text size -->
+        <item name="android:textSize">16sp</item>
+        <!-- Button padding -->
+        <item name="android:padding">10dp</item>
+        <!-- Button corner radius -->
+        <item name="android:radius">4dp</item>
+    </style>
+
+</resources>
